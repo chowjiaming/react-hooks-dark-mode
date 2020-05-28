@@ -13,15 +13,25 @@
   }
 }
 
+html[data-theme="dark"] {
+  --color: rgb(250, 250, 250);
+  --background-color: rgb(47, 79, 79);
+}
+
+html[data-theme="light"] {
+  --color: rgb(5, 5, 5);
+  --background-color: rgb(211, 211, 211);
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: var(--background-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--color);
 }
 
 .App-link {
