@@ -33,7 +33,7 @@ export default function ThemeToggle() {
 
   return (
     <label className="switch">
-      <button onClick={() => switchThemes()}>{buttonLabel}</button>
+      <button className="toggleButton" onClick={() => switchThemes()}>{buttonLabel}</button>
       <span className="slider round" />
     </label>
   );
