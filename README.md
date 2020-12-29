@@ -1,7 +1,7 @@
 ## Dark Mode with React Hooks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Check out the accompanying article on my blog [here](https://josephc.how/posts/how-to-react-dark-mode/).
+Check out the accompanying article on my blog [here](https://www.josephc.how/react-hooks-dark-mode/).
 
 ## Available Scripts
 
